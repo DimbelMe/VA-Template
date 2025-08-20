@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('fonts/AvenirNextLTPro-Light.woff2') format('woff2'),
+         url('fonts/AvenirNextLTPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
 :root {
   --bg: #2f2f38;
   --panel: #151518;
@@ -16,6 +24,7 @@ body {
   background-attachment: fixed;
   color: var(--text);
   line-height: 1.6;
+  font-family: 'Avenir Next LT Pro';
 }
 
 .wrap { width: min(1100px, 92%); margin-inline: auto; }
@@ -46,7 +55,7 @@ nav a:hover { color: var(--text); }
   background: var(--panel);
   border: 1px solid var(--accent); 
   border-radius: 16px;
-  box-shadow: 0 0 12px rgba(122,162,255,0.35);
+  box-shadow: 0 0 12px rgba(122,162,255,0.35);  
   position: relative;
   overflow: hidden;
   padding: 1.2rem;
