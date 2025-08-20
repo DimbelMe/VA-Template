@@ -29,7 +29,9 @@ body {
   backdrop-filter: blur(8px);
 }
 .site-header .wrap, .site-footer .wrap {
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
   padding: .8rem 0;
 }
 .brand { font-weight: 700; letter-spacing: .5px; }
@@ -53,19 +55,6 @@ nav a:hover { color: var(--text); }
     0 0 20px rgba(122,162,255,0.6); 
   margin: 1rem 0;
 }
-
-/* .card {
-  background: var(--panel);
-  border-radius: 16px;
-  border: 1px solid var(--accent); 
-  box-shadow: 
-    0 0 8px var(--accent),          
-    0 0 20px rgba(122,162,255,0.6); 
-  padding: 1.2rem;
-  margin: 1rem 0;
-}
-*/
-
 
 .grid.two {
   display: grid;

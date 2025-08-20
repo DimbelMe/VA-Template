@@ -1,4 +1,3 @@
-// Minimal JS: smooth scroll and a gentle keyboard focus ring
 document.addEventListener('click', (e) => {
   const a = e.target.closest('a[href^="#"]');
   if (!a) return;
