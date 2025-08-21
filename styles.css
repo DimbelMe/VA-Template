@@ -100,3 +100,22 @@ input, textarea {
 input:focus, textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 4px var(--ring); }
 button.button { cursor: not-allowed; }
 .site-footer { margin-top: 3rem; border-top: 1px solid rgba(255,255,255,.06); }
+
+.icon {
+  vertical-align: middle;  /* Aligns the middle of the image with the text */
+  display: inline-block;    /* Ensures consistent alignment */
+  margin-bottom: 10px; /* Adjust as needed */
+  width: 32px;
+  height: 32px;
+}
+
+a {
+  color: inherit;      /* Link takes text color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8af046;      /* Optional hover color */
+  text-decoration: underline;
+}
+
